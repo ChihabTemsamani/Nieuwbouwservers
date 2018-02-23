@@ -35,23 +35,21 @@ if (msg.content.startsWith(prefix + 'help')) {
   msg.channel.send(":inbox_tray: | My commands have been sent to you via DM.")
   msg.author.send(`\`\`\`asciidoc
 = General =
-c.ping :: Hm. I wonder what this does? /sarcasm
-c.8ball :: Ask the magic 8ball a question. Pretty self explanatory
-c.help :: Brings up this menu
-c.invite :: Shows the bot's invite URL\`\`\``)
-  msg.author.send(`\`\`\`asciidoc
+c.ping :: kijk hoe snel ik ben
+c.8ball :: vraag een 8bal vraag
+c.help :: dit is de help menu 
 = Moderation =
-c.ban :: Bans the user specified
-c.kick :: Kicks the user specified
-c.softban :: Softbans the specified user\`\`\``)
+c.ban :: hiermee kan je iemand bannen
+c.kick :: hiermee kick je iemand
+c.softban :: hiermee softban je iemand\`\`\``)
   msg.author.send(`\`\`\`asciidoc
 = Keywords =
-google it :: Shows a "you can google it" image
+google it :: google iets ( dit kan niet werken )
 boof :: Uh, shows the "boof dog" image. It'll become clearer when you see it
 BOYE :: riceBOYE (best doggo)\`\`\``)
   msg.author.send(`\`\`\`asciidoc
-= Bot Owner Commands =
-c.restart :: Restarts Catbot
+= de volgende commands kan alleen ikmarokko2 doen =
+c.restart :: start de bot opnieuw op
 c.eval :: Evaluates arbitrary JavaScript code
 c.say :: Outputs the inputted arguments (anything after c.say), else, if there's no args, return\`\`\``)
   msg.author.send("For the moderation commands to log properly, a channel named `mod-logs` must be provided.")
@@ -193,7 +191,7 @@ let args = msg.content.split(" ").slice(1);
   }
   
   if (msg.content.startsWith(prefix + "invite")) {
-    msg.reply("https://discordapp.com/oauth2/authorize/?permissions=8&scope=bot&client_id=350441155768352768")
+    msg.reply("sorry this is a bot onley for this server")
   }
 }); // END MESSAGE HANDLER
 
