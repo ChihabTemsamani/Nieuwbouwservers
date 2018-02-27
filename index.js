@@ -104,7 +104,7 @@ let args = msg.content.split(" ").slice(1);
   }
 
   if (msg.content.startsWith(prefix + 'restart')) {
-   if (msg.author.id !== '260246864979296256') return;
+   if (msg.author.id !== '200643775897403392') return;
    msg.channel.send('Rebooting...').then(() => {
      client.destroy().then(() => {
        process.exit();
