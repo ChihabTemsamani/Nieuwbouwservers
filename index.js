@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setPresence({ game: { name: `OOW YEAH BABE `, type: 0 }});
+  client.user.setPresence({ game: { name: `OOW YEAH BABE `, type: 1 }});
 });
 
 const prefix = "t!"
