@@ -3,10 +3,10 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setPresence({ game: { name: 'over de prachtige server van Tytgamer06 `, type: 2 }});
+  client.user.setPresence({ game: { name: 'bestellingen Nieuwbouwservers prefix ! `, type: 2 }});
 });
 
-const prefix = "t!"
+const prefix = "!"
 
 const answers = [
   'Without a doubt', 'Extremely likely', 'Perhaps', 'Maybe', 'I\'ll have to think about that', 'Not a chance!'
